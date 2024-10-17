@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 767px) {
+    .desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .bg-pattern{
+        background-image: url("./bg-image.png");
+    }
+}
